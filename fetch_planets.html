@@ -5,6 +5,9 @@
       <script>
          window.addEventListener("load", function(){
             // TODO: fetch planets JSON
+            fetch("https://handlers.education.launchcode.org/static/planets.json").then( function(response) {
+                console.log(response);
+            });
          });
       </script>
    </head>
